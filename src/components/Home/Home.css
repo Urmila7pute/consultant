@@ -1,0 +1,89 @@
+.homeSecondPart {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 60px 40px 40px 40px;
+  position: relative;
+}
+.what-we-offer-heading {
+  font-weight: 700 !important;
+  font-size: 25px;
+}
+/* .what-we-offer-list{
+    display: inline-flex;
+    margin-top: 15px;
+    
+  } */
+.what-we-offer-list {
+  margin: 0 -5px;
+  display: table;
+  margin-top: 15px;
+}
+
+/* Clear floats after the columns */
+.what-we-offer-list:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.what-we-offer-logo {
+  width: 14%;
+}
+.what-we-offer-discription {
+  text-align: start;
+}
+.what-we-offer-subHeading {
+  font-size: 17px;
+}
+.what-we-offer-subDescription {
+  font-size: 14px;
+  color: #666e70;
+}
+.what-we-offer-more {
+  color: #00a0e3;
+}
+
+.what-we-offer-element {
+  float: left;
+  width: 25%;
+  padding: 20px 40px;
+  display: flex;
+}
+.what-we-offer-logo:hover {
+color: #00a0e3;
+
+}
+.what-we-offer-subHeading:hover{
+  font-size: 17px;
+  /* color: #40e0d0; */
+}
+.who-are-we-list{
+  text-align: start;
+    font-size: 14px;
+    color: #666e70;
+    padding: 15px;
+}
+.who-are-we{
+  background-color: rgba(225, 224, 224, 0.32);
+}
+.what-we-offer-subHeading-hover{
+  color: #00a0e3;
+  font-size: 17px;
+}
+@media (max-width: 700px) {
+  .what-we-offer-list {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .homeSecondPart {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    position: relative;
+  }
+  .what-we-offer-element {
+    width: 100%;
+    display: flex;
+    padding: 20px;
+  }
+}

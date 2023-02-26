@@ -1,0 +1,93 @@
+.FooterSecondPart {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 40px 40px 15px 40px;
+    display: flex;
+    position: relative;
+    color: white;
+  }
+ 
+
+
+  .Footer{
+    background-color: black;
+  }
+
+  .list {
+    text-align: start;
+    font-size: 14px;
+    color: #666e70;
+    padding: 15px;
+  }
+
+  .heading {
+    font-weight: 700 !important;
+    font-size: 17px;
+    color: white;
+    margin-bottom: 15px;
+  }
+
+  .conatctUs{
+    width: 35%;
+    text-align: start;
+  }
+
+  .contactUsList{
+    display: flex;
+    padding: 10px 0px 0px 0px;
+    color: #b6c1c4;
+  }
+  .contactKey{
+    font-size: 14px;
+    margin-left: 6px;
+  }
+  .conatctValue{
+    font-size: 14px;
+  }
+  .designedBy{
+    display: -webkit-box;
+    font-size: 12px;
+  }
+.designedByH1{
+  font-size: 12px;
+}
+  .designedBySection{
+    width: 35%;
+    text-align: start;
+    place-self: self-end;
+  }
+
+  @media (max-width: 700px) {
+    .what-we-offer-list {
+      width: 100%;
+      margin-top: 15px;
+    }
+    .FooterSecondPart {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 20px 40px;
+      position: relative;
+      color: white;
+      display: block;
+    }
+    .what-we-offer-element {
+      width: 100%;
+      display: flex;
+      padding: 20px;
+    }
+    .conatctUs{
+        width: 100%;
+        text-align: start;
+      }
+    .contactUsList{
+        font-size: 14px;
+        color: #b6c1c4;
+        padding: 10px 0px 0px 0px;
+      }
+      .designedBySection {
+        text-align: start;
+        place-self: self-end;
+        display: none;
+    }
+   
+  }

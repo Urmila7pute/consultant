@@ -1,0 +1,4 @@
+export const OurApproach = [
+    'At Codeza Solutions Private Limited,we consider organization’s requirement is not only to search for a resume, rather for an individual who would fit into the organizational culture and possess values which are important for organization. When we engage with an organization, we understand organizational culture, values and ethics so that we are able to understand the organization in a much better way and to be in their shoes when we are working for their open positions.',
+    "While sourcing a candidate for a position, we see a person with professional and personal goals. We gain as much information about candidate’s experience and background, so as to ensure that the person would possess qualifications and expertise which are in line with the opening we are working on together. Our strong process driven approach ensure uniform service and enables us to bring right Candidates in the shortest TAT."
+]

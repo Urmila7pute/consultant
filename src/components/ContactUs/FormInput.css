@@ -1,0 +1,22 @@
+.input{
+    padding: 15px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.formInputs{
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+}
+.label{
+    color: grey;
+    font-size: 12px;
+    text-align: start;
+}
+.errorMessage{
+    color: red;
+    font-size: 12px;
+    text-align: start;
+    padding: 3px;
+}
