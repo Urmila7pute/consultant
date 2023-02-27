@@ -36,7 +36,7 @@ class AboutUs extends Component {
               <div>
                 <h2 className="what-we-offer-heading">VISION AND MISSION</h2>
               </div>
-              <ul>
+              <ul className="aboutUs-ul">
                 {OurApproach.map((ele, i) => {
                   return (
                     <li key={i} className={"list"}>

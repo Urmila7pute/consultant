@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100vh;
 }
 
 @keyframes App-logo-spin {
@@ -67,6 +69,15 @@
   color: #3498db;
 }
 
+.notFound{
+  align-items: center;
+    justify-content: center;
+    height: 64vh;
+    display: flex;
+}
+.notFoundh2{
+  font-size: 25px;
+}
 @media (max-width: 700px) {
   .logo {
     width: 58px;

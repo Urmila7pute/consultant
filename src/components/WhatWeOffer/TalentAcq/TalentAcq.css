@@ -1,0 +1,31 @@
+.homeSecondPart {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 60px 40px 40px 40px;
+    position: relative;
+  }
+    .list {
+        text-align: start;
+        font-size: 14px;
+        color: #666e70;
+        padding: 15px;
+      }
+  .talentAcq-ul{margin-bottom: 200px;}
+  @media (max-width: 700px) {
+    .what-we-offer-list {
+      width: 100%;
+      margin-top: 15px;
+    }
+    .homeSecondPart {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 20px 40px;
+      position: relative;
+    }
+    .what-we-offer-element {
+      width: 100%;
+      display: flex;
+      padding: 20px;
+    }
+  }
+  

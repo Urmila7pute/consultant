@@ -11,6 +11,9 @@
 
   .Footer{
     background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
   }
 
   .list {
@@ -88,6 +91,12 @@
         text-align: start;
         place-self: self-end;
         display: none;
+    }
+    .Footer{
+      background-color: black;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
     }
    
   }

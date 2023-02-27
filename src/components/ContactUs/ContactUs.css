@@ -1,8 +1,8 @@
 .formBackground{
     display: flex;
 justify-content: center;
-align-items: center;
-height: 100vh;
+/* align-items: center; */
+/* height: 100vh; */
 /* background-color: grey; */
 padding: 10px;
 }
@@ -11,6 +11,7 @@ padding: 10px;
 padding: 0px 60px;
 border-radius: 10px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+margin-bottom: 200px;
 }
 .formh1{
     text-align: center;
@@ -30,4 +31,17 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-bottom: 30px;
     background-color: #00a0e3;
     color: white;
+}
+
+@media (max-width: 700px) {
+    .formBackground{
+        display: flex;
+    justify-content: center;
+    padding: 35px;
+    }
+    .form{
+        background-color: white;
+    padding: 0px 60px;
+   
+    }
 }

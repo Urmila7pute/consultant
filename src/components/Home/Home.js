@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Carousel } from "react-responsive-carousel";
 import Img from "./Assets/HR-hiring-Complete-Controller.jpeg";
-import "./Home.css";
-import { WhatWeOfferData, WhoAreWe, OurApproach,  } from "./data";
+import Img1 from "./Assets/recruitment2.jpeg";
+import Img2 from "./Assets/recruitment3.jpeg";
 
+import "./Home.css";
+import { WhatWeOfferData, WhoAreWe, OurApproach } from "./data";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -21,9 +24,15 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Carousel showArrows={true} showThumbs={false} showStatus={false}>
+        <Carousel showArrows={true} showThumbs={false} showStatus={false}  infiniteLoop={true} autoPlay>
           <div>
             <img src={Img} style={{ height: "50vh", width: "100%" }} />
+          </div>
+          <div>
+            <img src={Img1} style={{ height: "50vh", width: "100%" }} />
+          </div>
+          <div>
+            <img src={Img2} style={{ height: "50vh", width: "100%" }} />
           </div>
         </Carousel>
         <div className="homeSecondPart">
@@ -44,17 +53,16 @@ class Home extends Component {
                       <box-icon
                         name={ele.iconName}
                         color={
-                          this.state.hoveredCard === i ? 
-                          "#00a0e3" 
-                          : "black"
+                          this.state.hoveredCard === i ? "#00a0e3" : "black"
                         }
                       ></box-icon>
                     </div>
                     <div className="what-we-offer-discription">
                       <div
                         className={
-                          this.state.hoveredCard===i ? "what-we-offer-subHeading-hover" :
-                          "what-we-offer-subHeading"
+                          this.state.hoveredCard === i
+                            ? "what-we-offer-subHeading-hover"
+                            : "what-we-offer-subHeading"
                         }
                       >
                         {ele.heading}
@@ -62,10 +70,10 @@ class Home extends Component {
                       <div className="what-we-offer-subDescription">
                         {ele.description}
                       </div>
-                      {/* <a href={ele.linkName} className="what-we-offer-more">
+                      <a href={ele.linkName} className="what-we-offer-more">
                         More info
                         <i class="icon-right-open-mini pi-icon-right"></i>
-                      </a> */}
+                      </a>
                     </div>
                   </div>
                 );
@@ -74,18 +82,22 @@ class Home extends Component {
           </section>
         </div>
         <div className="who-are-we">
-        <div className="homeSecondPart">
-          <section>
-            <div>
-              <h2 className="what-we-offer-heading">WHO ARE WE</h2>
-            </div>
-            <ul>
-            {WhoAreWe.map((ele, i) => {
-              return <li key={i} className={"who-are-we-list"}>{ele}</li>;
-            })}
-            </ul>
-          </section>
-        </div>
+          <div className="homeSecondPart">
+            <section>
+              <div>
+                <h2 className="what-we-offer-heading">WHO ARE WE</h2>
+              </div>
+              <ul className="whoweare-ul">
+                {WhoAreWe.map((ele, i) => {
+                  return (
+                    <li key={i} className={"who-are-we-list"}>
+                      {ele}
+                    </li>
+                  );
+                })}
+              </ul>
+            </section>
+          </div>
         </div>
       </div>
     );
