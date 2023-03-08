@@ -1,9 +1,5 @@
 import React, { Component } from "react";
-// import { Carousel } from "react-responsive-carousel";
-// import Img from "./Assets/HR-hiring-Complete-Controller.jpeg";
 import "./Footer.css";
-import { OurApproach } from "./data";
-// import FooterImage from "./Assets/Footer.jpeg";
 
 class Footer extends Component {
   constructor(props) {

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./CommonPage.css";
 import { InternationalRecruitmentData, RecruitmentProcessData, StartupHiringData, ContractStaffingData } from "./data";
-// import { withRouter } from "react-router";
 
 class CommonPage extends Component {
   constructor(props) {
@@ -57,6 +56,4 @@ class CommonPage extends Component {
     );
   }
 }
-export default //withRouter(
-    CommonPage;
-    // );
+export default CommonPage;

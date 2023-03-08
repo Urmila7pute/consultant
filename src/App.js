@@ -8,7 +8,6 @@ import ContactUs from "./components/ContactUs/ContactUs"
 import TalentAcq from "./components/WhatWeOffer/TalentAcq/TalentAcquisitionServices"
 import ExecutiveSearch from './components/WhatWeOffer/ExecutiveSearch/ExecutiveSearch';
 import CommonPage from './components/WhatWeOffer/CommonPage/CommonPage';
-// import { withRouter } from 'react-router';
 function App() {
   return (
     <div className="App">

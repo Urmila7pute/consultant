@@ -1,10 +1,6 @@
 import React, { Component } from "react";
-// import { Carousel } from "react-responsive-carousel";
-// import Img from "./Assets/HR-hiring-Complete-Controller.jpeg";
 import "./ContactUs.css";
 import FormInput from "./formInputes";
-// import { OurApproach } from "./data";
-// import ContactUsImage from "./Assets/ContactUs.jpeg";
 
 class ContactUs extends Component {
   constructor(props) {
@@ -17,7 +13,7 @@ class ContactUs extends Component {
   }
 
   handleSubmit(event) {
-    // alert('A name was submitted: ' + this.state.value);
+    
     event.preventDefault();
     const data= new FormData(event.target);
     console.log(Object.fromEntries(data.entries()))
