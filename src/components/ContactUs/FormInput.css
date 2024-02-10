@@ -7,7 +7,7 @@
 .formInputs{
     display: flex;
     flex-direction: column;
-    width: 280px;
+    /* width: 280px; */
 }
 .label{
     color: grey;

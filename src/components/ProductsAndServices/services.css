@@ -1,0 +1,144 @@
+.AboutUsSecondPart {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 60px 40px 40px 40px;
+    position: relative;
+  }
+
+  .aboutUs{
+    background-color: rgba(225, 224, 224, 0.32);
+  }
+
+  .list {
+    text-align: start;
+    font-size: 14px;
+    color: #666e70;
+    padding: 15px;
+  }
+
+  .what-we-offer-heading {
+    font-weight: 700 !important;
+    font-size: 25px;
+    color: black
+  }
+
+  .mainImg{
+    width: 30%;
+  }
+  .aboutUs-ul{
+    margin-bottom: 200px;
+  }
+  .what-we-offer-list {
+    margin: 0 -5px;
+    display: table;
+    margin-top: 15px;
+    margin-bottom: 200px;
+  }
+
+  .servicesItem {
+    float: left;
+    width: 20%;
+    padding: 20px 65px;
+    background: none;
+    margin: 10px;
+    height: 185px;
+    border-radius: 10px;
+    transition: all .5s;
+    background-size: 200%;
+    background-image: linear-gradient(to right, #fff 50%, #00a0e3 
+    /* rgb(114, 214, 248) */
+     50%);
+  }
+
+  .servicesItem:hover {
+    /* border: 1px solid; */
+    background-position: -100% 0;
+    color: white;
+    /* background: linear-gradient(to left, rgb(231, 239, 241) 50%, rgb(114, 214, 248) 50%);
+    
+    background-position: left;
+    background-size: 200%; */
+  }
+
+  .servicesItem:hover ul{
+    color: #fff;
+  }
+
+  .what-we-offer-discription {
+    text-align: start;
+  }
+
+  .what-we-offer-subHeading {
+    font-size: 22px !important;
+    font-weight: 500;
+  }
+  .servicesSubList {
+    font-size: 14px;
+    color: #666e70;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+
+  .what-we-offer-more {
+    color: #00a0e3;
+  }
+
+
+
+
+  @media (max-width: 600px) {
+    .what-we-offer-list {
+      width: 100%;
+      margin-top: 15px;
+    }
+    .AboutUsSecondPart {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 20px 40px;
+      position: relative;
+    }
+    .servicesItem {
+      width: 85%;
+      display: flex;
+      padding: 20px;
+      justify-content: center;
+      height: auto;
+    }
+    .what-we-offer-heading {
+        font-weight: 700 !important;
+        font-size: 25px;
+        color: black
+      }
+    .mySidenav{
+      display: block;
+    }
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up)
+@media only screen and (min-width: 600px){
+
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 600px) {
+  .servicesItem {
+    width: 40%;
+    display: flex;
+    padding: 20px 30px;
+    justify-content: center;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .servicesItem {
+    width: 39%;
+    display: flex;
+    padding: 20px 37px;
+    justify-content: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {...} */

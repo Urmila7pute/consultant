@@ -15,8 +15,9 @@ class FormInput extends Component {
           type={this.props.type}
           className="input"
           placeholder={this.props.placeholder} // value={this.state.message}
-          //onChange={(e)=>this.props.handleChange(e.target.value, this.props.name)}
+          onChange={(e)=>this.props.handleChange(e.target.value, this.props.name)}
           required
+          width={this.props?.width || '280px'}
         />
         <span className="errorMessage">{this.props.error}</span>
       </div>

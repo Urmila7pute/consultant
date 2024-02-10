@@ -1,0 +1,115 @@
+.heading {
+  font-size: 30px;
+  color: black;
+}
+.careerPage {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 60px 40px 270px 40px;
+  position: relative;
+  text-align: left;
+  display: flex;
+}
+.subPointCareer {
+  font-weight: 400;
+  font-size: 14px;
+  color: #666e70;
+  margin-top: 20px;
+  line-height: 1.5;
+}
+.parts {
+  width: 85%;
+}
+.parts2 {
+  width: 60%;
+  padding-left: 70px;
+}
+.openingList {
+  font-size: 14px;
+  color: #666e70;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.listItemCareer {
+  font-size: 14px;
+}
+.headingH3Career {
+  margin-top: 20px;
+}
+
+.Resumeform {
+  background-color: white;
+  padding: 0px 60px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 200px;
+}
+sr-only {
+  position: absolute;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  color: #fff;
+  background-color: #00a0e3;
+  cursor: pointer;
+  font-size: 14px;
+}
+.nofilechoosen {
+  font-size: 14px;
+  color: #666e70;
+}
+
+@media (max-width: 600px) {
+  .heading {
+    font-size: 30px;
+    color: black;
+  }
+  .parts {
+    width: 100%;
+  }
+  .parts2 {
+    width: 100%;
+    padding-left: 70px;
+  }
+  .careerPage {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 60px 40px 40px 40px;
+    position: relative;
+    text-align: left;
+    display: block;
+  }
+}
+
+@media (max-width: 900px) {
+  .careerPage {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 20px 40px;
+    position: relative;
+  }
+  .careerPage {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 60px 40px 40px 40px;
+    position: relative;
+    text-align: left;
+    display: block;
+  }
+  .parts {
+    width: 85%;
+  }
+  .parts2 {
+    width: 85%;
+    padding-left: 70px;
+  }
+}

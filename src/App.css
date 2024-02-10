@@ -78,6 +78,13 @@
 .notFoundh2{
   font-size: 25px;
 }
+.menuIcon{
+  padding: 10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (max-width: 700px) {
   .logo {
     width: 58px;
@@ -95,6 +102,7 @@
     display: flex;
     padding: 10px 0;
     box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+    place-content: space-between;
   }
   .logoSection {
     width: 50%;
@@ -104,7 +112,7 @@
   }
   .nav-list {
     width: 50%;
-    display: flex;
+    display: none;
     justify-content: right;
     align-items: center;
   }
@@ -124,4 +132,50 @@
     text-decoration: none;
     color: #3498db;
   }
+  .menuIcon{
+    padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 }
+@media (min-width: 768px) {
+  .App {
+    width: 100%;
+  }
+}
+
+
+.sidenav {
+  position: fixed;
+    z-index: 1;
+    top: 64px;
+    right: 0;
+    background-color: #00a0e3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  /* right: 25px; */
+  font-size: 36px;
+  /* margin-left: 50px; */
+  color: #fff;
+}
+

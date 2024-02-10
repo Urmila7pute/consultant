@@ -1,4 +1,14 @@
-.formBackground{
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.rows{
+    display: flex;
+    place-items: center;
+    margin-top: 20px;
+}
+formBackground{
     display: flex;
 justify-content: center;
 /* align-items: center; */
@@ -12,6 +22,7 @@ padding: 0px 60px;
 border-radius: 10px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 margin-bottom: 200px;
+width: 280px;
 }
 .formh1{
     text-align: center;
@@ -32,9 +43,55 @@ margin-bottom: 200px;
     background-color: #00a0e3;
     color: white;
 }
+.firstBlock{
 
-@media (max-width: 700px) {
-    .formBackground{
+}
+.boxIcon{
+    margin:3px;
+    position: relative;
+}
+.icon{
+    font-size: 20px;
+}
+
+.circleIcon{
+    background: #0ea2e6;
+    border-radius: 50%;
+    color: black;
+    display: inline-block;
+    height: 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 30px;
+    margin: 10px;
+    position: relative;
+}
+.thanksMessage{
+    font-size: 14px;
+    font-weight: bold;
+}
+.letsWorkTogether{
+    padding-bottom: 239px;
+    margin-top: -110px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: auto;
+    font-size: 25px;
+}
+
+@media (max-width: 768px) {
+    .container{
+        display: block;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .rows{
+        display: flex;
+        place-items: center;
+        margin-top: 20px;
+        margin-left: 15%;
+    }
+     .formBackground{
         display: flex;
     justify-content: center;
     padding: 35px;
@@ -42,6 +99,14 @@ margin-bottom: 200px;
     .form{
         background-color: white;
     padding: 0px 60px;
-   
+    width: 280px;
+    }
+    .letsWorkTogether{
+        padding-bottom: 230px;
+    margin-top: -190px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: auto;
+    font-size: 25px;
     }
 }

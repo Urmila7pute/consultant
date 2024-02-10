@@ -1,0 +1,202 @@
+
+.mainImg{
+    width: 30%;
+}
+
+.AboutUsSecondPart {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 60px 40px 40px 40px;
+    position: relative;
+  }
+
+.backgound{
+    background-color: rgba(225, 224, 224, 0.32);
+}
+
+.blockSection{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 60px 40px 40px 40px;
+    position: relative;
+}
+
+.careerBlock{
+    float: left;
+    width: 30%;
+    padding: 20px 65px;
+    background: none;
+    margin: 10px;
+    height: 185px;
+    border-radius: 10px;
+    transition: all .5s;
+    background-size: 200%;
+    background-image: linear-gradient(to right, #fff 50%, #00a0e3 
+    /* rgb(114, 214, 248) */
+     50%);
+}
+
+.currentOpeningHeading {
+    margin-top: 45px;
+    font-size: 30px;
+    color: black;
+  }
+  .career-list {
+    margin: 0 -5px;
+    display: table;
+    margin-top: 15px;
+    margin-bottom: 200px;
+    width: -webkit-fill-available;
+  }
+
+
+  .openingBlock {
+    float: left;
+    width: 20%;
+    padding: 20px 65px;
+    background: none;
+    margin: 10px;
+    height: 185px;
+    border-radius: 10px;
+    transition: all .5s;
+    background-size: 200%;
+    background-image: linear-gradient(to right, #fff 50%, #00a0e3 
+    /* rgb(114, 214, 248) */
+     50%);
+  }
+
+
+  .openingBlock:hover .servicessubHeading{
+    color: #00a0e3;
+  } 
+
+  .openingPoints {display: flex;
+  margin-top: 10px;
+  
+}
+
+.subPointOpening{
+    font-weight: 500;
+    color: #666e70;
+}
+
+.subPointOpeningValue{
+    font-weight: 600;
+}
+
+  .servicessubHeading {
+    font-size: 22px !important;
+    font-weight: 700;
+    text-align: start;
+  }
+
+  .chip{
+    display: inline-flex;
+    flex-direction: row;
+    background-color: #e5e5e5;
+    border: none;
+    cursor: default;
+    height: 36px;
+    outline: none;
+    padding: 0;
+    font-size: 14px;
+    font-color: #333333;
+    font-family:"Open Sans", sans-serif;
+    white-space: nowrap;
+    align-items: center;
+    border-radius: 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.chip-content{
+    cursor: inherit;
+    display: flex;
+    align-items: center;
+    user-select: none;
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.skills{
+    text-align: start;
+}
+
+.jdButton {
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #00a0e3;
+        margin-top: 10px;
+        float: inline-end;
+}
+.Careerdiscription{
+    width: 100%;;
+  }
+  @media (max-width: 600px) {
+    .currentOpeningHeading {
+        margin-top: 45px;
+    font-size: 30px;
+    color: black;
+      }
+      .career-list {
+        width: 100%;
+        margin-top: 15px;
+      }
+        .AboutUsSecondPart {
+          max-width: 1120px;
+          margin: 0 auto;
+          padding: 20px 40px;
+          position: relative;
+        }
+        .openingBlock {
+          width: 85%;
+          display: flex;
+          padding: 20px;
+          /* justify-content: center; */
+          height: auto;
+        }
+        .servicesheading {
+            font-weight: 700 !important;
+            font-size: 25px;
+            color: black
+          }
+      
+      }
+      @media (min-width: 600px) {
+        .openingBlock {
+          width: 90%;
+          display: flex;
+          padding: 20px 30px;
+          /* justify-content: center; */
+        }
+      }
+      @media only screen and (min-width: 768px) {
+        .openingBlock {
+          width: 35%;
+          display: flex;
+          padding: 20px 50px;
+          /* justify-content: center; */
+          height: 280px;
+        }
+      }
+
+      @media only screen and (min-width: 1121px) {
+        .openingBlock {
+          width: 38%;
+          display: flex;
+          padding: 20px 50px;
+          /* justify-content: center; */
+          height: max-content;
+        }
+      }

@@ -30,7 +30,6 @@ class Footer extends Component {
                 <box-icon
                   name="phone-call"
                   type="solid"
-                  flip="horizontal"
                   color="#fdfcfc"
                 ></box-icon>
                 <div>

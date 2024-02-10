@@ -21,18 +21,77 @@ class ContactUs extends Component {
   }
   render() {
     return (
-      <div className="formBackground">
-       <form onSubmit={this.handleSubmit} className="form" id="form">
-        <h1 className="formh1"> LET'S CONNECT</h1>
-        <FormInput name="name" placeholder="Name" label="Name" type="text" handleChange={this.handleChange}/>
-        <FormInput name="email" placeholder="Email" label="Email" type="email"/>
+      <>
+      <div className="container">
+        <div className="firstBlock">
+          <h1 className="formh1"> CONTACT </h1>
+          <div className="thanksMessage"> Thanks for visiting our website.</div>
+          <div  className="thanksMessage"> Awaiting to hear from you. </div>
+            <div className="rows">
+              <div className="circleIcon">
+                  <div className="boxIcon">
+                  <box-icon
+                    name="envelope"
+                    type="solid"
+                    flip="horizontal"
+                    // color="#fdfcfc"
+                    color='white'
+                  size='xs'
+                  ></box-icon>
+                  </div>
+              </div>
+              <div><b>Email</b> : info@codiza.in</div>
+            </div>
+           
+            <div className="rows">
+              <div className="circleIcon">
+                  <div className="boxIcon">
+                  <box-icon
+                    name="phone-call"
+                    type="solid"
+                    // color="#fdfcfc"
+                    color='white'
+                    size='xs'
+                  ></box-icon>
+                  </div>
+              </div>
+              <div><b>Mobile</b> : 9960611617</div>
+            </div>
+            <div className="rows">
+              <div className="circleIcon">
+                  <div className="boxIcon">
+                  <box-icon
+                    name="location-plus"
+                    type="solid"
+                    flip="horizontal"
+                    // color="#fdfcfc"
+                    color='white'
+                  size='xs'
+                  ></box-icon>
+                  </div>
+              </div>
+              <div><b>Address</b> : Pune, Maharashtra, India</div>
+            </div>
 
-        <FormInput name="phone" placeholder="Phone" label="Phone" type="number"/>
-        <FormInput name="message" placeholder="Message" label="Message" type="text"/>
-        <input type="submit" value="Submit" className="submitButton"/>
+        </div>
+        <div className="formBackground">
+        <form onSubmit={this.handleSubmit} className="form" id="form">
+          <h1 className="formh1"> LET'S CONNECT</h1>
+          <FormInput name="name" placeholder="Name" label="Name" type="text" handleChange={this.handleChange}/>
+          <FormInput name="email" placeholder="Email" label="Email" type="email"/>
 
-      </form>
+          <FormInput name="phone" placeholder="Phone" label="Phone" type="number"/>
+          <FormInput name="message" placeholder="Message" label="Message" type="text"/>
+          <input type="submit" value="Submit" className="submitButton"/>
+
+        </form>
+        </div>
+       
       </div>
+       <div className="letsWorkTogether">
+       Let's work together!
+       </div>
+       </>
     );
   }
 }
