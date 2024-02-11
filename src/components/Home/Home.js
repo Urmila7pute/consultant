@@ -40,12 +40,12 @@ class Home extends Component {
             <div>
               <h1 className="what-we-offer-heading">WHAT WE OFFER</h1>
             </div>
-            <div className="what-we-offer-list">
+            <div className="what-we-offer-list-home">
               {WhatWeOfferData.map((ele, i) => {
                 return (
                   <div
                     className="what-we-offer-element"
-                    xs={3}
+                    // xs={3}
                     onMouseOver={() => this.onHover(i)}
                     onMouseOut={() => this.onHoverOut()}
                   >
@@ -61,8 +61,8 @@ class Home extends Component {
                       <div
                         className={
                           this.state.hoveredCard === i
-                            ? "what-we-offer-subHeading-hover"
-                            : "what-we-offer-subHeading"
+                            ? "wwo-subHeading-hover"
+                            : "wwo-subHeading"
                         }
                       >
                         {ele.heading}
