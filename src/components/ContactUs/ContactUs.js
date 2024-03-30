@@ -40,7 +40,7 @@ class ContactUs extends Component {
                   ></box-icon>
                   </div>
               </div>
-              <div><b>Email</b> : info@codiza.in</div>
+              <div><b>Email</b> : info@codeza.in</div>
             </div>
            
             <div className="rows">
@@ -55,7 +55,7 @@ class ContactUs extends Component {
                   ></box-icon>
                   </div>
               </div>
-              <div><b>Mobile</b> : 9960611617</div>
+              <div><b>Mobile</b> : +91-9960611617</div>
             </div>
             <div className="rows">
               <div className="circleIcon">

@@ -10,21 +10,13 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 class Home extends Component {
   constructor(props) {
     super(props);
-    this.state = { hoveredCard: null };
   }
 
-  onHover = (index) => {
-    this.setState({ hoveredCard: index });
-  };
-
-  onHoverOut = () => {
-    this.setState({ hoveredCard: null });
-  };
 
   render() {
     return (
       <div>
-        <Carousel showArrows={true} showThumbs={false} showStatus={false}  infiniteLoop={true} autoPlay>
+        {/* <Carousel showArrows={true} showThumbs={false} showStatus={false}  infiniteLoop={true} autoPlay>
           <div>
             <img src={Img} style={{ height: "50vh", width: "100%" }} />
           </div>
@@ -34,8 +26,8 @@ class Home extends Component {
           <div>
             <img src={Img2} style={{ height: "50vh", width: "100%" }} />
           </div>
-        </Carousel>
-        <div className="homeSecondPart">
+        </Carousel> */}
+        {/* <div className="homeSecondPart">
           <section className="what-we-offer">
             <div>
               <h1 className="what-we-offer-heading">WHAT WE OFFER</h1>
@@ -80,7 +72,23 @@ class Home extends Component {
               })}
             </div>
           </section>
-        </div>
+        </div> */}
+        <div className="AboutUsSecondPart">
+            <section>
+              <div>
+                <h2 className="what-we-offer-heading">Welcome to Codeza Solutions Private Limited</h2>
+              </div>
+              <p className="paragraph">
+              Welcome to Codeza, tomorrow's services and knowledge provider in field of Data warehousing field. Codeza is your trusted partner in developing and testing the next generation data warehouse projects. We are a start-up based in India, founded in 2021.
+              </p>
+              <p className="paragraph">
+              Codeza Solutions is a consulting and managed services firm dedicated to helping clients enable better decision making. We offer customers business intelligence and analytic tool selection, predictive modeling development, Realtime streaming analytics, Profitability costing models, BPM design and delivery optimization. Codeza guides their customers to a solution that enhances business modeling enabling better analysis and insight into their data. We believe that the power of technology combined with best practices will give customers the ability to make fact-based decisions.
+              </p>
+              <p className="paragraph">
+              Our goal for 2025 is to reach a team of 20 highly skilled employees, demonstrating our commitment to growth and excellence. We understand the evolving needs of the industry, and our focus is on sustainable value add solutions.
+              </p>
+            </section>
+          </div>
         <div className="who-are-we">
           <div className="homeSecondPart">
             <section>

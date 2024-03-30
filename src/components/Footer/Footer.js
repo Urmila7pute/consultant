@@ -35,7 +35,7 @@ class Footer extends Component {
                 <div>
                   <h1 className="contactKey">Phone</h1>
                 </div>
-                <div className="conatctValue"> : 9960611617</div>
+                <div className="conatctValue"> : +91-9960611617</div>
               </div>
               <div className="contactUsList">
                 <box-icon
@@ -47,12 +47,12 @@ class Footer extends Component {
                 <div>
                   <h1 className="contactKey">Email</h1>
                 </div>
-                <div className="conatctValue"> : ---------</div>
+                <div className="conatctValue"> : info@codeza.in</div>
               </div>
             </section>
             <section className="designedBySection">
               <div className="designedBy">
-                © 2022 
+                © 2024 
                 &nbsp;
                 <h1 className="designedByH1"> Codeza Solutions Private Limited </h1>
                 &nbsp;

@@ -6,10 +6,13 @@ import prodtcsAndServicesImg from "./Assets/service.png";
 import { WhatWeOfferData } from "../Home/data";
 import { services } from "./data";
 
+const history = createBrowserHistory()
+
 class ProductsAndServices extends Component {
   constructor(props) {
     super(props);
   }
+
   render() {
     return (
       <div>
@@ -23,11 +26,10 @@ class ProductsAndServices extends Component {
               <div className="what-we-offer-list">
               {services.map((ele, i) => {
                 return (
+                  <a href={`${ele.linkName}`}>
                   <div
                     className="servicesItem"
                     xs={3}
-                    // onMouseOver={() => this.onHover(i)}
-                    // onMouseOut={() => this.onHoverOut()}
                   >
                     <div className="what-we-offer-discription">
                       <div
@@ -41,6 +43,7 @@ class ProductsAndServices extends Component {
                       </ul> 
                     </div>
                   </div>
+                  </a>
                 );
               })}
               </div>

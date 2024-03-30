@@ -4,66 +4,6 @@
   padding: 60px 40px 40px 40px;
   position: relative;
 }
-.what-we-offer-heading {
-  font-weight: 700 !important;
-  font-size: 25px;
-}
-/* .what-we-offer-list-home{
-    display: inline-flex;
-    margin-top: 15px;
-    
-  } */
-.what-we-offer-list-home {
-  margin: 0 -5px;
-  display: table;
-  margin-top: 15px;
-}
-
-/* Clear floats after the columns */
-.what-we-offer-list-home:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.what-we-offer-logo {
-  width: 14%;
-}
-.what-we-offer-discription {
-  text-align: start;
-}
-.wwo-subHeading {
-  font-size: 17px;
-}
-.what-we-offer-subDescription {
-  font-size: 14px;
-  color: #666e70;
-}
-.what-we-offer-more {
-  color: #00a0e3;
-}
-
-.what-we-offer-element {
-  /* float: left;
-  width: 25%;
-  padding: 20px 40px; */
-  display: flex;
-
-  float: left;
-  /* width: 34%; */
-  padding: 20px 65px;
-  background: none;
-  margin: 10px;
-  /* height: 185px; */
-  border-radius: 10px;
-  transition: all .5s;
-  background-size: 200%;
-  background-image: linear-gradient(to right, #fff 50%, #00a0e3 /* rgb(114, 214, 248) */ 50%);
-}
-.what-we-offer-logo:hover {
-color: #00a0e3;
-
-}
 
 .who-are-we-list{
   text-align: start;
@@ -74,89 +14,19 @@ color: #00a0e3;
 .who-are-we{
   background-color: rgba(225, 224, 224, 0.32);
 }
-.wwo-subHeading-hover{
-  color: #00a0e3;
-  font-size: 17px;
-}
+
 .whoweare-ul{
   margin-bottom: 200px;
 }
-@media (max-width: 600px){
-  .what-we-offer-element {
-      width: 100%;
-      display: flex;
-      padding: 20px;
-  }
-}
+
 @media (max-width: 700px) {
-  .what-we-offer-list-home {
-    width: 100%;
-    margin-top: 15px;
-  }
   .homeSecondPart {
     max-width: 1120px;
     margin: 0 auto;
     padding: 20px 40px;
     position: relative;
   }
-  .what-we-offer-element {
-    /* width: 100%;
-    display: flex;
-    padding: 20px; */
-
-    display: flex;
-  
-    float: left;
-    /* width: 34%; */
-    padding: 20px 65px;
-    background: none;
-    margin: 10px;
-    /* height: 185px; */
-    border-radius: 10px;
-    transition: all .5s;
-    background-size: 200%;
-    background-image: linear-gradient(to right, #fff 50%, #00a0e3 /* rgb(114, 214, 248) */ 50%);
-
-  }
+ 
 }
 
 
-@media (min-width: 700px) {
-  .what-we-offer-element {
-    /* float: left;
-    width: 25%;
-    padding: 20px 40px; */
-    display: flex;
-  
-    float: left;
-    width: 27%;
-    padding: 20px 65px;
-    background: none;
-    margin: 10px;
-    /* height: 185px; */
-    border-radius: 10px;
-    transition: all .5s;
-    background-size: 200%;
-    background-image: linear-gradient(to right, #fff 50%, #00a0e3 /* rgb(114, 214, 248) */ 50%);
-  }
-}
-
-@media (min-width:1200px) {
-  .what-we-offer-element {
-    /* float: left;
-    width: 25%;
-    padding: 20px 40px; */
-    display: flex;
-  
-    float: left;
-    width: 27%;
-    padding: 20px 100px;
-    background: none;
-    margin: 10px;
-    /* height: 185px; */
-    border-radius: 10px;
-    transition: all .5s;
-    background-size: 200%;
-    background-image: linear-gradient(to right, #fff 50%, #00a0e3 /* rgb(114, 214, 248) */ 50%);
-  }
-}

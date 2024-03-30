@@ -12,6 +12,8 @@ import CommonPage from './components/WhatWeOffer/CommonPage/CommonPage';
 import ProductsAndServices from './components/ProductsAndServices/ProductsAndServices';
 import { useState } from 'react';
 import CareerDescription from './components/CareerDescription/CareerDescription';
+import WhatWeOffer from './components/WhatWeOffer/WhatWeOffer';
+import TalentAcquisition from './components/TalentAcquisition/TalentAcquisition';
 
 function App() {
   const [visible, setOpenCloseSidebar] = useState(false)
@@ -57,6 +59,9 @@ function App() {
     <Routes>
         <Route element={<Home/>} path="/"></Route>
         <Route element={<AboutUs/>} path="/aboutUs"></Route>
+        <Route element={<WhatWeOffer/>} path='/whatweoffer' ></Route>
+        <Route element={<TalentAcquisition/>} path='/talentacquisition' ></Route>
+
         <Route element={<ProductsAndServices/>} path="/productsAndServices"></Route>
         <Route element={<ContactUs/>} path="/Contact"></Route>
         <Route element={<Careers/>} path="/careers"></Route>
