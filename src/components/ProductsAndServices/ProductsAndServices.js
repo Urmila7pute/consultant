@@ -6,7 +6,6 @@ import prodtcsAndServicesImg from "./Assets/service.png";
 import { WhatWeOfferData } from "../Home/data";
 import { services } from "./data";
 
-const history = createBrowserHistory()
 
 class ProductsAndServices extends Component {
   constructor(props) {
